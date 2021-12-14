@@ -6,6 +6,12 @@ body{
     margin-top: 5px;
 }
 
+/*
+Lähde: https://pixabay.com/fi/photos/abstrakti-maalaus-h%c3%b6yhenet-kaunis-6047465/
+Katsottu 14.12.2021
+
+SIMS KUVA: https://simsvip.com/2013/07/23/update-the-sims-4-logo/
+*/
 .color-container{
     height: 650px;
     background-image: url("../Kuvat/abstract-6047465_1920.jpg");
@@ -48,7 +54,7 @@ body{
     position: absolute;
     bottom: 10px;
     left: 300px;
-    box-shadow: 0px 0px 30px 5px rgb(66, 60, 60);
+    box-shadow: 0px 0px 30px 5px rgb(17, 17, 17);
 }
 
 .box2{
@@ -59,7 +65,7 @@ body{
     bottom: 10px;
     left: 755px;
     right: 755px;
-    box-shadow: 0px 0px 30px 5px rgb(66, 60, 60);
+    box-shadow: 0px 0px 30px 5px rgb(17, 17, 17);
 }
 
 .box3{
@@ -69,5 +75,5 @@ body{
     position: absolute;
     bottom: 10px;
     right: 300px;
-    box-shadow: 0px 0px 30px 5px rgb(66, 60, 60);
+    box-shadow: 0px 0px 30px 5px rgb(17, 17, 17);
 }
