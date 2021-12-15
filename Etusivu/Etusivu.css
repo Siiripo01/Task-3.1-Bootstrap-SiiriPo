@@ -12,10 +12,6 @@ body{
     font-size: 20px;
 }
 
-/*
-Lähde: https://pixabay.com/fi/photos/abstrakti-maalaus-h%c3%b6yhenet-kaunis-6047465/
-Katsottu 14.12.2021
-*/
 .color-container{
     height: 650px;
     background-image: url("../Kuvat/abstract-6047465_1920.jpg");
