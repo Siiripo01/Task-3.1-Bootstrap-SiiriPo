@@ -2,3 +2,112 @@
     Created on : December, 2021
     Author     : Siiri Poropudas
 */
+
+body{
+    background-color: rgb(8, 8, 22);
+    zoom: 85%;
+}
+
+.fa-gamepad{
+    color: white;
+    font-size: 60px;
+}
+
+.nav-item{
+    font-size: 20px;
+}
+
+#accordionPane{
+    margin-top: 20px;
+}
+
+.logo{
+    background-image: url("../Kuvat/sims-logo.png");
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position: center;
+    height: 250px;
+    margin-top: 20px;
+}
+
+#content{
+    text-align: right;
+    margin-right: 170px;
+}
+
+.sims{
+    background-image: url("../Kuvat/Sims-standing.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 700px;
+    width: 400px;
+    height: 850px;
+    display: inline-block;
+}
+
+.sim{
+    background-image: url("../Kuvat/Tired-sim-standing.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 375px;
+    width: 400px;
+    height: 850px;
+    display: inline-block;
+}
+
+.textBox1{
+    background-color: rgb(212, 212, 212);
+    width: 400px;
+    height: 600px;
+    border: 10px solid rgb(41, 40, 40);
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 20px;
+    margin-bottom: 200px;
+    margin-right: 50px;
+    display: inline-block;
+}
+
+.textBox2{
+    background-image: url("../Kuvat/sims-buildmode.jpg");
+    background-repeat: no-repeat;
+    background-size: 1035px;
+    width: 600px;
+    height: 600px;
+    border: 10px solid rgb(41, 40, 40);
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 20px;
+    margin-bottom: 200px;
+    margin-right: 50px;
+    display: inline-block; 
+}
+
+.footerbar{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgba(37, 37, 37, 0.473);
+    padding: 10px;
+}
+
+.footerbar-brand{
+    margin-top: 7px;
+}
+
+.sources{
+    text-align: start;
+}
+
+span{
+    color: rgb(92, 92, 92);
+}
+
+a{
+    color: white;
+    padding: 5px;
+}
+
+a:hover{
+    color: gray;
+}
