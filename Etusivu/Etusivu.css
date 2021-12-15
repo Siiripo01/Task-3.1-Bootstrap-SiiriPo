@@ -1,18 +1,20 @@
 body{
     background-color: rgb(8, 8, 22);
+    zoom: 85%;
 }
 
-.nav-tabs{
-    margin-top: 5px;
-    grid-row-start: 1;
-    grid-column-start: 1;
+.fa-gamepad{
+    color: white;
+    font-size: 60px;
+}
+
+.nav-item{
+    font-size: 20px;
 }
 
 /*
 Lähde: https://pixabay.com/fi/photos/abstrakti-maalaus-h%c3%b6yhenet-kaunis-6047465/
 Katsottu 14.12.2021
-
-SIMS KUVA: https://simsvip.com/2013/07/23/update-the-sims-4-logo/
 */
 .color-container{
     height: 650px;
@@ -48,32 +50,36 @@ SIMS KUVA: https://simsvip.com/2013/07/23/update-the-sims-4-logo/
     margin-top: 5px;
 }
 
-
 .box1{
-    height: 400px;
-    width: 400px;
-    background-color: red;
-    bottom: 200px;
-    box-shadow: 0px 0px 30px 5px rgb(17, 17, 17);
-    position: relative;
+    background-image: url("../Kuvat/Minecraft-Logo.png");
+    background-repeat: no-repeat;
+    background-size: 375px;
+    background-position: center;
 }
 
 .box2{
-    height: 400px;
-    width: 400px;
-    background-color: yellow;
-    bottom: 200px;
-    box-shadow: 0px 0px 30px 5px rgb(17, 17, 17);
-    position: relative;
+    background-image: url("../Kuvat/sims4alexis-2.png");
+    background-repeat: no-repeat;
+    background-size: 375px;
+    background-position: center;  
 }
 
 .box3{
-    height: 400px;
+    background-image: url("../Kuvat/counter-strike-png-5212.png");
+    background-repeat: no-repeat;
+    background-size: 375px;
+    background-position: center;
+}
+
+.box1, .box2, .box3{
+    height: 500px;
     width: 400px;
-    background-color: turquoise;
+    background-color: rgb(212, 212, 212);
     bottom: 200px;
-    box-shadow: 0px 0px 30px 5px rgb(17, 17, 17);
+    box-shadow: inset 0px 0px 20px 20px white;
     position: relative;
+    margin-left: 15px;
+    border-radius: 10px;
 }
 
 .box1:hover, .box2:hover, .box3:hover{
@@ -95,4 +101,68 @@ a{
 
 a:hover{
     color: gray;
+}
+
+@media only screen and (max-width: 1399px) {
+    .box1, .box2, .box3{
+        height: 400px;
+        width: 200px;
+        background-color: rgb(212, 212, 212);
+        bottom: 200px;
+        box-shadow: inset 0px 0px 20px 20px white;
+        position: relative;
+        padding-top: 120px;
+        align-items: center;
+        margin-left: 15px;
+        border-radius: 10px;
+        background-size: 320px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .box1, .box2, .box3{
+        height: 400px;
+        width: 200px;
+        background-color: rgb(212, 212, 212);
+        bottom: 200px;
+        box-shadow: inset 0px 0px 20px 20px white;
+        position: relative;
+        padding-top: 120px;
+        align-items: center;
+        margin-left: 15px;
+        border-radius: 10px;
+        background-size: 250px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .box1, .box2, .box3{
+        height: 300px;
+        width: 200px;
+        background-color: rgb(212, 212, 212);
+        bottom: 200px;
+        box-shadow: inset 0px 0px 20px 20px white;
+        position: relative;
+        padding-top: 120px;
+        align-items: center;
+        margin-left: 15px;
+        border-radius: 10px;
+        background-size: 180px;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .box1, .box2, .box3{
+        height: 300px;
+        width: 300px;
+        background-color: rgb(212, 212, 212);
+        bottom: 200px;
+        box-shadow: inset 0px 0px 20px 20px white;
+        position: relative;
+        padding-top: 120px;
+        align-items: center;
+        margin-left: 15px;
+        border-radius: 10px;
+        background-size: 120px;
+    }
 }
