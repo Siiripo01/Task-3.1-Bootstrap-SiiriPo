@@ -21,7 +21,6 @@ body{
     margin-top: 20px;
 }
 
-/*https://logolook.net/minecraft-logo/*/
 .logo{
     background-image: url("../Kuvat/Minecraft-Logo-No-Block.png");
     background-repeat: no-repeat;
@@ -46,10 +45,6 @@ body{
     height: 500px;
 }
 
-/*
-https://fantendo.fandom.com/wiki/Alex_(Minecraft)
-https://fi.namemc.com/minecraft-skins/tag/old
-*/
 .accordion-body2{
     background-image: url("../Kuvat/alex-minecraft.png");
     background-repeat: no-repeat;
@@ -58,9 +53,8 @@ https://fi.namemc.com/minecraft-skins/tag/old
     height: 500px;
 }
 
-/*https://play.google.com/store/apps/details?id=com.daan.skinsmcpe&hl=fi&gl=US*/
 .accordion-body3{
-    background-image: url("../Kuvat/unnamed.png");
+    background-image: url("../Kuvat/Boy-skin.png");
     background-repeat: no-repeat;
     background-size: 500px;
     background-position: center;
@@ -70,11 +64,45 @@ https://fi.namemc.com/minecraft-skins/tag/old
 .textBox{
     background-color: rgb(212, 212, 212);
     width: 900px;
-    float: left;
     border: 10px solid rgb(41, 40, 40);
     border-radius: 5px;
     padding: 15px;
     margin-left: 300px;
+    font-size: 20px;
+    margin-bottom: 150px;
+}
+
+.generalHeader, .personalHeader{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.personalHeader{
+    margin-top: 15px;
+}
+
+.general, .personal{
+    padding: 15px;
+}
+
+.footerbar{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgba(37, 37, 37, 0.473);
+    padding: 10px;
+}
+
+.footerbar-brand{
+    margin-top: 7px;
+}
+
+.sources{
+    text-align: start;
+}
+
+span{
+    color: rgb(92, 92, 92);
 }
 
 @media only screen and (max-width: 1879px){
@@ -84,6 +112,7 @@ https://fi.namemc.com/minecraft-skins/tag/old
         margin: auto;
         float: none;
         margin-top: 20px;
+        margin-bottom: 30px;
     }
 
     .accordion-flush{

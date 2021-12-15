@@ -92,6 +92,10 @@ body{
     padding: 10px;
 }
 
+.footerbar-brand{
+    margin-top: 7px;
+}
+
 .sources{
     text-align: start;
 }
