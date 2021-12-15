@@ -48,23 +48,14 @@ body{
 
 .box1{
     background-image: url("../Kuvat/Minecraft-Logo.png");
-    background-repeat: no-repeat;
-    background-size: 375px;
-    background-position: center;
 }
 
 .box2{
     background-image: url("../Kuvat/sims4alexis-2.png");
-    background-repeat: no-repeat;
-    background-size: 375px;
-    background-position: center;  
 }
 
 .box3{
     background-image: url("../Kuvat/counter-strike-png-5212.png");
-    background-repeat: no-repeat;
-    background-size: 375px;
-    background-position: center;
 }
 
 .box1, .box2, .box3{
@@ -76,10 +67,15 @@ body{
     position: relative;
     margin-left: 15px;
     border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: 375px;
+    background-position: center;
 }
 
 .box1:hover, .box2:hover, .box3:hover{
-    bottom: 250px;
+    -webkit-transform: translateY(-10%);
+    transform: translateY(-10%);
+    transition: transform 100ms linear;
 }
 
 .footerbar{
