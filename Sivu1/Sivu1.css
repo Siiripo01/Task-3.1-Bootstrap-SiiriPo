@@ -2,3 +2,118 @@
     Created on : December, 2021
     Author     : Siiri Poropudas
 */
+
+body{
+    background-color: rgb(8, 8, 22);
+    zoom: 85%;
+}
+
+.fa-gamepad{
+    color: white;
+    font-size: 60px;
+}
+
+.nav-item{
+    font-size: 20px;
+}
+
+#accordionPane{
+    margin-top: 20px;
+}
+
+/*https://logolook.net/minecraft-logo/*/
+.logo{
+    background-image: url("../Kuvat/Minecraft-Logo-No-Block.png");
+    background-repeat: no-repeat;
+    background-size: 900px;
+    background-position: center;
+    height: 250px;
+}
+
+.accordion-flush{
+    border: 10px solid rgb(41, 40, 40);
+    border-radius: 5px;
+    width: 700px;
+    float: right;
+    margin-right: 300px;
+}
+
+.accordion-body1{
+    background-image: url("../Kuvat/steve-minecraft.png");
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: center;
+    height: 500px;
+}
+
+/*
+https://fantendo.fandom.com/wiki/Alex_(Minecraft)
+https://fi.namemc.com/minecraft-skins/tag/old
+*/
+.accordion-body2{
+    background-image: url("../Kuvat/alex-minecraft.png");
+    background-repeat: no-repeat;
+    background-size: 260px;
+    background-position: center;
+    height: 500px;
+}
+
+/*https://play.google.com/store/apps/details?id=com.daan.skinsmcpe&hl=fi&gl=US*/
+.accordion-body3{
+    background-image: url("../Kuvat/unnamed.png");
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: center;
+    height: 500px;
+}
+
+.textBox{
+    background-color: rgb(212, 212, 212);
+    width: 900px;
+    float: left;
+    border: 10px solid rgb(41, 40, 40);
+    border-radius: 5px;
+    padding: 15px;
+    margin-left: 300px;
+}
+
+@media only screen and (max-width: 1879px){
+
+    .textBox{
+        width: 700px;
+        margin: auto;
+        float: none;
+        margin-top: 20px;
+    }
+
+    .accordion-flush{
+        width: 700px;
+        float: none;
+        margin: auto;
+    }
+    
+}
+
+@media only screen and (max-width: 990px){
+    .logo{
+        background-size: 700px;
+    }
+    
+}
+
+@media only screen and (max-width: 767px){
+    .logo{
+        background-size: 500px;
+    }
+
+    .accordion-flush{
+        width: 540px;
+    }
+    
+}
+
+@media only screen and (max-width: 575px){
+    .textBox{
+        width: 540px;
+    }
+}
