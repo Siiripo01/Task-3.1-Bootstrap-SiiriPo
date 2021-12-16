@@ -4,7 +4,7 @@
 */
 
 body{
-    background-image: url(../Kuvat/Minecraft-background.png);
+    background-image: url("../Kuvat/Minecraft-background.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgb(8, 8, 22);

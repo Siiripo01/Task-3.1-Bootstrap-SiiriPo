@@ -4,6 +4,9 @@
 */
 
 body{
+    background-image: url("../Kuvat/sims-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: rgb(8, 8, 22);
     zoom: 85%;
 }
@@ -31,8 +34,7 @@ body{
 }
 
 #content{
-    text-align: right;
-    margin-right: 170px;
+    text-align: center;
 }
 
 .sims{
@@ -55,20 +57,32 @@ body{
     display: inline-block;
 }
 
-.textBox1{
+.textBox{
     background-color: rgb(212, 212, 212);
+    text-align: left;
     width: 400px;
-    height: 600px;
     border: 10px solid rgb(41, 40, 40);
     border-radius: 5px;
     padding: 15px;
     font-size: 20px;
-    margin-bottom: 200px;
     margin-right: 50px;
     display: inline-block;
 }
 
-.textBox2{
+.generalHeader, .personalHeader{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.personalHeader{
+    margin-top: 15px;
+}
+
+.general, .personal{
+    padding: 15px;
+}
+
+.exampleImage{
     background-image: url("../Kuvat/sims-buildmode.jpg");
     background-repeat: no-repeat;
     background-size: 1035px;
@@ -76,11 +90,8 @@ body{
     height: 600px;
     border: 10px solid rgb(41, 40, 40);
     border-radius: 5px;
-    padding: 15px;
-    font-size: 20px;
-    margin-bottom: 200px;
     margin-right: 50px;
-    display: inline-block; 
+    display: inline-block;
 }
 
 .footerbar{
@@ -100,7 +111,7 @@ body{
 }
 
 span{
-    color: rgb(92, 92, 92);
+    color: rgb(161, 161, 161);
 }
 
 a{
