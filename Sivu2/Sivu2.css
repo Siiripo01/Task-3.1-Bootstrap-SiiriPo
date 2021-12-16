@@ -35,6 +35,7 @@ body{
 
 #content{
     text-align: center;
+    margin-top: 50px;
 }
 
 .sims{
@@ -65,8 +66,9 @@ body{
     border-radius: 5px;
     padding: 15px;
     font-size: 20px;
-    margin-right: 50px;
+    margin-left: 630px;
     display: inline-block;
+    position: absolute;
 }
 
 .generalHeader, .personalHeader{
@@ -83,14 +85,14 @@ body{
 }
 
 .exampleImage{
-    background-image: url("../Kuvat/sims-buildmode.jpg");
+    background-image: url("../Kuvat/sims-gameplay.jpg");
     background-repeat: no-repeat;
-    background-size: 1035px;
+    background-size: 600px;
     width: 600px;
     height: 600px;
     border: 10px solid rgb(41, 40, 40);
     border-radius: 5px;
-    margin-right: 50px;
+    margin-right: 500px;
     display: inline-block;
 }
 
@@ -121,4 +123,46 @@ a{
 
 a:hover{
     color: gray;
+}
+
+@media only screen and (max-width: 1622px){
+    .sims{
+        background-size: 550px;
+        width: 300px;
+        height: 750px;    
+    }
+
+    .sim{
+        background-size: 300px;
+        width: 300px;
+        height: 750px;    
+    }
+}
+
+@media only screen and (max-width: 1452px){
+    .sims{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1210px){
+    .sim{
+        display: none;
+    }
+
+    .exampleImage{
+        margin-bottom: 150px;
+    }
+}
+
+@media only screen and (max-width: 1165px){
+    .textBox{
+        margin-left: 100px;
+    }
+
+    .exampleImage{
+        margin: auto;
+        margin-top: 750px;
+        margin-bottom: 30px;
+    }
 }
