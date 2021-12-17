@@ -18,6 +18,18 @@ body{
     font-size: 20px;
 }
 
+#colors{
+    margin-top: 20px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+#colorChange{
+    color: white;
+    font-size: 20px;
+    margin-right: 100px;
+}
+
 .color-container{
     height: 650px;
     background-image: url("../Kuvat/abstract-background.jpg");
