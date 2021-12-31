@@ -1,0 +1,75 @@
+/*
+    Created on : December, 2021
+    Author     : Siiri Poropudas
+*/
+
+@import "./variables";
+
+@mixin side ($position, $background) {
+    justify-content: center;
+    align-items: center;
+    text-align: $position;
+    background-color: $background;
+    padding: 10px + 10px;
+}
+
+body{
+    background-color: rgb(8, 8, 22);
+    zoom: 85%;
+}
+
+.fa-gamepad{
+    color: $colorWhite;
+    font-size: 60px;
+}
+
+.nav-item{
+    font-size: 20px;
+}
+
+header{
+    color: $colorWhite;
+    margin: $margin;
+    font-size: 20px;
+
+    span{
+      color: red;
+      font-family: 'Courier New', Courier, monospace;
+    }
+}
+
+.content{
+    margin: $margin;
+
+    #box1, #box2{
+        border: $colorWhite solid 5px;
+        border-radius: 5px;
+        width: 700px;
+        height: 600px;
+        display: inline-block;
+        margin-bottom: 200px;
+        font-size: 20px;
+
+        span{
+            background-color: rgb(237, 247, 105);
+        }
+    }
+
+    #box1{
+        @include side(left, rgb(253, 198, 198));
+        margin-right: $margin;
+    }
+
+    #box2{
+        @include side(right, rgb(141, 245, 236));
+        margin-left: $margin;
+    }
+}  
+
+.footerbar{
+    color: $colorWhite;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgba(37, 37, 37, 0.473);
+    padding: 10px;
+}
